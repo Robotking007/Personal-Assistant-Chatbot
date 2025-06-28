@@ -25,5 +25,5 @@ A sophisticated personal assistant chatbot with AI/ML capabilities, featuring a 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/personal-assistant-chatbot.git
+   git clone https://github.com/Robotking007/Personal-Assistant-Chatbot
    cd personal-assistant-chatbot

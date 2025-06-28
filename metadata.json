@@ -1,0 +1,23 @@
+{
+  "training_date": "2025-06-28T13:06:07.066190",
+  "config": {
+    "intents_path": "d:\\Projects\\Chatbot\\backend\\chatbot_model\\data\\intents.json",
+    "model_dir": "d:\\Projects\\Chatbot\\backend\\chatbot_model\\data",
+    "max_seq_len": 20,
+    "embedding_dim": 128,
+    "lstm_units": 64,
+    "dense_units": 64,
+    "dropout_rate": 0.4,
+    "l2_reg": 0.001,
+    "epochs": 100,
+    "batch_size": 16,
+    "validation_split": 0.2,
+    "min_confidence": 0.6,
+    "min_samples_per_class": 2
+  },
+  "statistics": {
+    "num_intents": 7,
+    "vocab_size": 98,
+    "total_samples": 14
+  }
+}

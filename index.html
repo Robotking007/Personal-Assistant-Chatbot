@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Personal Assistant</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Personal Assistant</h1>
+            <p>Your intelligent companion for daily tasks</p>
+        </header>
+        
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="chat-info">
+                    <h3>Assistant</h3>
+                    <p class="status">Online</p>
+                </div>
+                <button id="train-btn" class="btn-icon" title="Train Model">
+                    <i class="fas fa-brain"></i>
+                </button>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will appear here dynamically -->
+            </div>
+            
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Type your message here...">
+                <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        
+        <!-- Training Modal -->
+        <div class="training-interface" id="training-section">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Train the Assistant</h2>
+                <div class="form-group">
+                    <label for="user-query">User Query:</label>
+                    <input type="text" id="user-query" placeholder="What the user might ask">
+                </div>
+                <div class="form-group">
+                    <label for="bot-response">Desired Response:</label>
+                    <input type="text" id="bot-response" placeholder="How the assistant should respond">
+                </div>
+                <button id="submit-training" class="btn-primary">Train Model</button>
+                <div id="training-status"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

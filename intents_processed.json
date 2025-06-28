@@ -1,0 +1,175 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hello there",
+        "hi there",
+        "hey there",
+        "greetings",
+        "howdy",
+        "what's up",
+        "how are you",
+        "yo"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I assist you?",
+        "Hello! Nice to see you. What do you need?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see ya",
+        "farewell",
+        "until next time",
+        "catch you later",
+        "have a good one",
+        "signing off",
+        "talk later",
+        "later",
+        "peace out"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Come back if you need anything.",
+        "Farewell! It was nice chatting with you.",
+        "Have a wonderful day! Goodbye for now."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "much obliged",
+        "thanks a lot",
+        "thank you very much",
+        "many thanks",
+        "gracious",
+        "mercy",
+        "dance",
+        "cheers",
+        "the",
+        "thanks a bunch",
+        "thanks a ton"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "My pleasure! Let me know if you need anything else.",
+        "Glad I could assist! Don't hesitate to ask again.",
+        "Anytime! That's what I'm here for."
+      ]
+    },
+    {
+      "tag": "weather_pune",
+      "patterns": [
+        "what's the weather in pune",
+        "pune weather",
+        "how's the weather in pune",
+        "pune weather forecast",
+        "pune temperature",
+        "weather pune",
+        "is it raining in pune",
+        "pune climate",
+        "pune weather today",
+        "pune weather report",
+        "current weather in pune",
+        "what's the temperature in pune",
+        "how hot is it in pune",
+        "pune weather conditions",
+        "will it rain in pune today",
+        "pune humidity",
+        "pune weather update"
+      ],
+      "responses": [
+        "Current weather in Pune: 25Â°C and partially sunny",
+        "Pune forecast shows 25Â°C with partial cloud cover",
+        "Today's weather in Pune is 25Â°C with some clouds",
+        "In Pune right now: 25Â°C, partly cloudy"
+      ]
+    },
+    {
+      "tag": "weather_general",
+      "patterns": [
+        "what's the weather",
+        "how's the weather today",
+        "weather forecast",
+        "temperature today",
+        "is it going to rain",
+        "weather report",
+        "current weather",
+        "weather conditions",
+        "today's weather",
+        "how's the weather outside",
+        "what's the temperature",
+        "weather update",
+        "is it sunny today",
+        "is it raining",
+        "will it rain today",
+        "weather prediction",
+        "how's the climate"
+      ],
+      "responses": [
+        "I can check the weather for you. Please tell me your location.",
+        "For accurate weather, I'll need your city name.",
+        "Let me look up the forecast. Where are you located?",
+        "I can give you weather details. What's your location?"
+      ]
+    },
+    {
+      "tag": "bot_capabilities",
+      "patterns": [
+        "what can you do",
+        "what do you do",
+        "your functions",
+        "how can you help",
+        "what are you",
+        "who are you",
+        "what's your purpose",
+        "tell me about yourself",
+        "what help can you provide",
+        "your capabilities",
+        "what questions can i ask",
+        "what do you know",
+        "what are your skills"
+      ],
+      "responses": [
+        "I can help with weather information, answering questions, and general assistance.",
+        "I'm your personal assistant! I can provide weather forecasts and answer questions.",
+        "My capabilities include weather information and general knowledge. Ask me anything!",
+        "I specialize in weather queries and general assistance. How can I help?"
+      ]
+    },
+    {
+      "tag": "bot_name",
+      "patterns": [
+        "what's your name",
+        "who are you",
+        "your name",
+        "do you have a name",
+        "can i call you",
+        "should i call you",
+        "what do i call you"
+      ],
+      "responses": [
+        "I'm your personal assistant! You can call me Assistant.",
+        "I'm Assistant, here to help you!",
+        "You can call me Assistant. Nice to meet you!",
+        "My name is Assistant. How can I help you today?"
+      ]
+    }
+  ]
+}
